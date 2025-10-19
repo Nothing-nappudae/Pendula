@@ -1,0 +1,52 @@
+# === Python build/cache files ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# === Virtual environments ===
+.venv/
+venv/
+env/
+ENV/
+
+# === Jupyter or IPython ===
+.ipynb_checkpoints/
+
+# === Matplotlib/NumPy cache ===
+.matplotlib/
+.np_cache/
+
+# === OS-specific junk ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Editor/IDE settings ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Simulation output ===
+*.mp4
+*.gif
+*.avi
+*.png
+*.jpg
+*.jpeg
+output/
+recordings/
+
+# === Logs or temporary files ===
+*.tmp
+*.bak
+*.swp
+*.~*
+
+# === Python packaging (if you later turn it into a module) ===
+build/
+dist/
+*.egg-info/
